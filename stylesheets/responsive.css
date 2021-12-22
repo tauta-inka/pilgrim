@@ -108,10 +108,12 @@ h3 { font-size: 1em;}
   .cellar {top: 66%;}
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* iPhone */
+@media only screen and (device-width: 414px) and (device-height: 896px) and (orientation: portrait){
 
+  .main {height: 33vh;}
+  .rectangle {top: -85%; }
 }
+
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (min-device-height : 812px) and (orientation: portrait) {
   /* iPhone X Portrait */
