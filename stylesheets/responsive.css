@@ -1,0 +1,230 @@
+
+@media only screen and (min-width: 1366px) {
+  /* Desktop */
+  .main {height: 120vh;}
+.road {margin-left: 0%;}
+.car {top: 5%;}
+@keyframes car {
+  0% {   top: 5%; left: -20%;}
+  100%{ top: 5%; left: 180%;}
+}
+.rectangle { left: 6%;  top: -90%;}
+.main2 {height: 180vh;}
+.arc {top: 58%;}
+  .dashes { margin-top: -26%;}
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* iPad */
+
+}
+
+/* @media only screen and (min-device-width: 1920px) and (max-width: 2560px) { }*/
+  /* imac class */
+
+
+
+/* iPad Landscape */
+/* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+  .rectangle { left: 4%;  top: -60%;}
+  .pstar {  left: -25%;  top: -12%; }
+  .smalc {top: 32%;}
+  .d4 {top: -5%;}
+  .city1 {margin-top: -36%;}
+  .arc {top: 56%;}
+
+.ball2 {top: 35%;}
+  .smalc2 {top: 65%;}
+  .bigc {  top: 25%;}
+  .pstar2 {top: 8%;}
+  .dashes {margin-top: -42%;}
+  .rectangle2 {  top: 13%;}
+  .gstar {  top: 33%;}
+
+
+  .cellar {top: 70%;}
+
+  h1 { font-size: 3em;}
+  h2 { font-size: 2.2em;}
+  h3 { font-size: 1em;}
+} */
+
+@media only screen and (min-width: 1024px)
+and (max-width: 1366px)
+ {
+  /* iPad+ ipad Pro Landscape */
+  .rectangle { left: 5%;  top: -60%;}
+  .pstar {  left: -27%;  top: -10%; }
+  .smalc {top: 32%;}
+  .d4 {top: -7%;}
+  .city1 {margin-top: -36%;}
+  .arc {top: 56%;}
+
+    .main2 {height: 150vh;}
+.ball2 {top: 34%;}
+  .smalc2 {top: 68%; width: calc(100%/5.5);}
+  .bigc {  top: 27%;}
+  .pstar2 {top: 8%; left: 38%;}
+.mediumc {top: 40%; width: calc(100%/5); left: 46%;}
+  .dashes {margin-top: -41%; }
+  .rectangle2 {  top: 14%;}
+  .gstar {  top: 33%;}
+
+  /* .bigcar {width: 50%;}
+  .trees {width: 13%;} */
+  .cellar {top: 70%;}
+
+  h1 { font-size: 3.5em;}
+  h2 { font-size: 2.7em;}
+  h3 { font-size: 2em;}
+}
+
+
+@media only screen and (min-width: 480px)
+/* and (max-width: 1024px)  */
+and (orientation: portrait) {
+  /* iPads Portrait */
+  .main {height: 48vh;}
+  .rectangle { left: 4%;  top: -100%;}
+  .pstar {  left: -10%;  top: -16%; width: calc(100%/3); }
+  .smalc {top: 20%;}
+  .tinyball { left: 40%;  top: 48%; }
+  .d4 {top: -14%;}
+  .city1 {margin-top: -33%;}
+.arc {top: 56%;}
+
+h1 { font-size: 3em;}
+h2 { font-size: 2.2em;}
+h3 { font-size: 1em;}
+
+  .main2 {height: 83vh;}
+  .smalc2 {top: 84%; left: 90%;}
+  .bigc {top: 25%; width: calc(100%/1.4);}
+  .rectangle2 {  top: 15%; left: 3%;}
+  .dashes { margin-top: -30%;}
+  .pstar2 {width: calc(100%/4.2); top: 9%;}
+  .gstar{ display: none;}
+  .cellar {top: 66%;}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* iPhone */
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (min-device-height : 812px) and (orientation: portrait) {
+  /* iPhone X Portrait */
+  .main {height: 30vh;}
+.arc {top: 58%;}
+.rectangle {top: -93%; }
+.line {top: 65%; }
+.car {width: calc(100%/6.5);}
+.road {margin-top: -20%;}
+  h1 { font-size: 1.5em;
+  margin-left: 5%;}
+  h2 { font-size: 1.1em; margin-left: 5%;}
+  h3 { font-size: 1em;}
+  .main2 {height: 50vh;}
+  .smalc2 {top: 84%; left: 90%;}
+  .rectangle2 {top: 15%; left: 3%;}
+  .bigc {top: 25%; width: calc(100%/1.4);}
+  .dashes { margin-top: -30%;}
+  .pstar2 {width: calc(100%/4.2); top: 8%;}
+  .gstar{ display: none;}
+  .cellar {top: 66%;}
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (device-width: 812px) and (device-height: 375px) and (orientation: landscape) {
+  /* iPhone X landscape */
+
+  .main {height: 130vh;}
+.arc {top: 56%;}
+.d4 {top: -24%;}
+.rectangle { left: 6%;}
+.city1 {margin-top: -26%;}
+h1 { font-size: 2.7em;}
+h2 { font-size: 2em;}
+h3 { font-size: 1em;}
+  .main2 {height: 230vh;}
+  .smalc2 {top: 85%; left: 90%; width: calc(100%/6.5)}
+  .rectangle2 {    left: 3%;
+    top: 15%;}
+  .bigc {top: 25%; width: calc(100%/1.4);}
+  .dashes { margin-top: -30%;}
+  .pstar2 {width: calc(100%/4.2); top: 9%;}
+  .gstar{ display: none;}
+  .cellar {top: 66%;}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (min-device-height: 640px) and (max-device-height : 736px) and (orientation: portrait) {
+  /* iPhone 6, 7, 8 Portrait */
+  .main {height: 40vh;}
+.arc {top: 59%;}
+.rectangle {top: -82%;}
+.pstar {  left: -23%;  top: -26%;}
+.city1 {margin-top: -33%;}
+.tinyball {top: 54%;}
+  h1 { font-size: 1.5em; margin-left: 5%;}
+  h2 { font-size: 1.1em; margin-left: 5%;}
+  h3 { font-size: 1em;}
+  .main2 {height: 60vh;}
+  .smalc2 {top: 84%; left: 90%; width: calc(100%/6.5);}
+  .rectangle2 { left: 3.5%; top: 16%;}
+  .bigc {top: 25%; width: calc(100%/1.4);}
+  .dashes { margin-top: -30%;}
+  .pstar2 {width: calc(100%/4.2); top: 9%;}
+  .gstar{ display: none;}
+  .cellar {top: 66%;}
+}
+
+/* @media only screen and (device-width: 375px) and (device-height: 812px) {
+  .main {height: 130vh;}
+  .rectangle { left: 4%;  top: -100%;}
+  .pstar {  left: -12%;  top: -12%; width: calc(100%/3);}
+  .smalc {top: 26%; left: 15%;}
+  .tinyball { left: 38%; top: 53%;}
+  .d4 {top: -25%;}
+  .city1 {margin-top: -36%;}
+  .arc {top: 55%;}
+  .city1 {margin-top: -28%;}
+  .main2 {height: 240vh;}
+  .smalc2 {top: 70%;}
+  .bigc {top: 26%;}
+} */
+
+@media only screen and (device-width : 667px) and (device-height : 375px)
+and (orientation: landscape)
+{
+  /* iPhone 6,7,8 Landscape */
+  .main {height: 110vh;}
+  .rectangle { left: 4%;  top: -100%;}
+  .pstar {  left: -12%;  top: -12%; width: calc(100%/3);}
+  .smalc {top: 26%; left: 15%; }
+  .tinyball { left: 38%;  top: 53%; }
+  .d4 {top: -22%;}
+  .city1 {margin-top: -36%;}
+  .arc {top: 55%;}
+  .city1 {margin-top: -28%; }
+
+  h1 { font-size: 2.7em;}
+  h2 { font-size: 2em;}
+  h3 { font-size: 1em;}
+ .mediumc {left: 45%; width: calc(100%/5.5);}
+  .main2 {height: 183vh;}
+  .smalc2 {top: 75%;}
+  .pstar2 {width: calc(100%/4.2); top: 8%; left: 35%;}
+  .rectangle2 {  top: 15%;    left: 2%;}
+  .bigc {top: 28%; left: 35%; width: calc(100%/1.8);}
+  .gstar{ left: 90%; top: 43%;}
+  .dashes { margin-top: -30%;}
+}
