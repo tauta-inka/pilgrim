@@ -19,36 +19,7 @@
 
 }
 
-/* @media only screen and (min-device-width: 1920px) and (max-width: 2560px) { }*/
-  /* imac class */
 
-
-
-/* iPad Landscape */
-/* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-
-  .rectangle { left: 4%;  top: -60%;}
-  .pstar {  left: -25%;  top: -12%; }
-  .smalc {top: 32%;}
-  .d4 {top: -5%;}
-  .city1 {margin-top: -36%;}
-  .arc {top: 56%;}
-
-.ball2 {top: 35%;}
-  .smalc2 {top: 65%;}
-  .bigc {  top: 25%;}
-  .pstar2 {top: 8%;}
-  .dashes {margin-top: -42%;}
-  .rectangle2 {  top: 13%;}
-  .gstar {  top: 33%;}
-
-
-  .cellar {top: 70%;}
-
-  h1 { font-size: 3em;}
-  h2 { font-size: 2.2em;}
-  h3 { font-size: 1em;}
-} */
 
 @media only screen and (min-width: 1024px)
 and (max-width: 1366px)
@@ -167,7 +138,7 @@ h3 { font-size: 1em;}
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (min-device-height: 640px) and (max-device-height : 736px) and (orientation: portrait) {
-  /* iPhone 6, 7, 8 Portrait */
+  /* iPhone 6, 7, 8 Portrait and android*/
   .main {height: 40vh;}
 .arc {top: 59%;}
 .rectangle {top: -82%;}
@@ -187,25 +158,12 @@ h3 { font-size: 1em;}
   .cellar {top: 66%;}
 }
 
-/* @media only screen and (device-width: 375px) and (device-height: 812px) {
-  .main {height: 130vh;}
-  .rectangle { left: 4%;  top: -100%;}
-  .pstar {  left: -12%;  top: -12%; width: calc(100%/3);}
-  .smalc {top: 26%; left: 15%;}
-  .tinyball { left: 38%; top: 53%;}
-  .d4 {top: -25%;}
-  .city1 {margin-top: -36%;}
-  .arc {top: 55%;}
-  .city1 {margin-top: -28%;}
-  .main2 {height: 240vh;}
-  .smalc2 {top: 70%;}
-  .bigc {top: 26%;}
-} */
+
 
 @media only screen and (device-width : 667px) and (device-height : 375px)
 and (orientation: landscape)
 {
-  /* iPhone 6,7,8 Landscape */
+  /* iPhone 6,7,8 Landscape and android*/
   .main {height: 110vh;}
   .rectangle { left: 4%;  top: -100%;}
   .pstar {  left: -12%;  top: -12%; width: calc(100%/3);}
