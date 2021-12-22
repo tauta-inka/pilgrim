@@ -117,7 +117,7 @@ h3 { font-size: 1em;}
   /* iPhone X Portrait */
   .main {height: 30vh;}
 .arc {top: 58%;}
-.rectangle {top: -90%; }
+.rectangle {top: -85%; }
 .line {top: 65%; }
 .car {width: calc(100%/6.5);}
 .road {margin-top: -20%;}
