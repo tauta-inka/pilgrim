@@ -138,12 +138,6 @@ h3 { font-size: 1em;}
 
 
 
-@media only screen and (device-width: 414px) and (device-height: 896px) and (orientation: portrait){
-  /* iPhone XR */
-  .main {height: 33vh;}
-  .rectangle {top: -80%; }
-}
-
 
 
 
